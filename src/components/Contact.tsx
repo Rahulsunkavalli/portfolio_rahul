@@ -44,7 +44,7 @@ const Contact: React.FC = () => {
 
   const handleResumeDownload = () => {
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/file/d/1GkYwUYbFBA65z0x3Y6g4Shv70rgTNJzg/view?usp=sharing";
+    link.href = "https://drive.google.com/file/d/1W8Mboztc_58yNZlIi_07-NXrYe3GPX08/view?usp=sharing";
     link.setAttribute("download", "Rahul_Sunkavalli_Resume.pdf");
     link.setAttribute("target", "_blank");
     document.body.appendChild(link);
